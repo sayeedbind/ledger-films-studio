@@ -20,7 +20,7 @@ Make MagnatesMedia-style business and money documentaries for YouTube in VideoEx
 
 1. Sign in to https://app.videoexpress.ai/.
 2. Open a browser-capable chat (ChatGPT agent mode with Full access, Claude in Chrome, or the Claude desktop app).
-3. Paste the prompt from https://github.com/ai-playbooks/ledger-films-studio (SYSTEM_PROMPT.md).
+3. Paste the prompt from https://github.com/sayeedbind/ledger-films-studio (SYSTEM_PROMPT.md).
 4. Give the format and the story.
 
 **What it does**
@@ -38,5 +38,5 @@ Make MagnatesMedia-style business and money documentaries for YouTube in VideoEx
 - Original dramatized work only. No real-person likeness, no on-screen text baked into images, no news-style presentation.
 - Exports stay in My Videos for 40 days.
 
-**Repo:** https://github.com/ai-playbooks/ledger-films-studio
+**Repo:** https://github.com/sayeedbind/ledger-films-studio
 **Channel:** https://www.youtube.com/@LedgerFilmsHQ

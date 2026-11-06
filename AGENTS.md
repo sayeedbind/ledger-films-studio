@@ -5,7 +5,7 @@ This repository is a **prompt package**. It contains no software.
 ## What to do
 1. Open `PLAYBOOK.md` (the full instructions) and follow it exactly, starting at **Section 1 (Intake)**.
 2. Do all production work in the VideoExpress web app (https://app.videoexpress.ai/) with your **browser tool**.
-3. Optional reading: `examples/` (finished scene maps to imitate) and `skills/ledger-films-studio/references/` (UI click map, pacing and trim, cinematography, motion graphics, multishot template).
+3. Optional reading: `examples/` (finished scene maps to imitate) and the two skills — `skills/topic-research/` (find what to make next: live Google Trends, news RSS and Reddit sweep, ranked shortlist, three briefs) and `skills/ledger-films-studio/references/` (UI click map, pacing and trim, cinematography, motion graphics, multishot template).
 
 ## What NOT to do
 - Do not run any commands, scripts, tests, installs, linters, Python, Node or shell.

@@ -103,20 +103,33 @@ There's no audit, no preflight and no approval step. The agent only comes back t
 | [docs/troubleshooting.md](docs/troubleshooting.md) | Symptom → fix for common browser and VideoExpress failures |
 | [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md) | How to push this folder to GitHub (website or terminal) |
 | [examples/](examples/) | Complete long-form and short example scripts with every visual prompt written out |
+| [skills/topic-research/](skills/topic-research/) | **Find what to make next.** Live research across Google Trends, news RSS, Reddit and more — ranked shortlist plus three full briefs |
 | [skills/ledger-films-studio/](skills/ledger-films-studio/) | Agent Skill version: UI map, pacing/trim, cinematography, motion graphics, and the scripting skill references |
 
 ---
 
 ## Skills included
 
-This workflow bundles four capability guides, all in [PLAYBOOK.md](PLAYBOOK.md) and mirrored under [skills/ledger-films-studio/references/](skills/ledger-films-studio/references/):
+This workflow bundles five capability guides, all in [PLAYBOOK.md](PLAYBOOK.md) and mirrored under [skills/](skills/):
 
+- **Topic research** — live sweep of Google Trends, news RSS feeds and Reddit; scored shortlist and three full briefs. See [skills/topic-research/](skills/topic-research/).
 - **Scripting** — adapted from the VideoExpress Scripting Skill by Brent Wesley (ratava), CC BY-NC 4.0. Multishot prompt format, continuity blocks, failure-mode fixes.
 - **Cinematography** — named camera moves, shot sizing, dramatic lighting, the LedgerFilms look bible.
 - **Motion graphics** — lower-thirds, chapter titles, animated figures, counters and maps, kept subtitle-free by default.
 - **Business & money story craft** — rise-and-fall structure, monetization and ad-safety notes for the highest advertiser-intent niche.
 
 The scripting skill is CC BY-NC 4.0 (non-commercial, attribution). Attribute it if you redistribute this repo.
+
+### Don't know what to make next? Run the topic-research skill first
+
+Ask your agent:
+
+```
+Use the topic-research skill from https://raw.githubusercontent.com/sayeedbind/ledger-films-studio/main/skills/topic-research/references/topic-research-playbook.md
+Research my niche live and give me a ranked shortlist of 10 topics and full briefs for the top 3.
+```
+
+It reads Google Trends, Google News, CNBC, WSJ, BBC, FT, Bloomberg, TechCrunch and Reddit, scores every candidate, and hands back a ranked list plus three production-ready briefs. You pick one; the playbook then produces it. A weekly routine (Monday sweep, Wednesday watchlist, Friday Shorts pass) is built in.
 
 ---
 

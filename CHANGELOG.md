@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0 (2026-11-06): topic-research skill
+
+- **New `skills/topic-research/`** — find what to make next, from live data:
+  - `SKILL.md` — the router: non-negotiables, the six-step method, the scoring model, the ad-safety gate.
+  - `references/topic-research-playbook.md` — full method: the sweep, candidate extraction, the six-axis weighted scoring model, the shortlist format, the three-brief template, the ad-safety gate, and a weekly cadence (Monday sweep, Wednesday watchlist, Friday Shorts pass).
+  - `references/sources.md` — the verified source access map with every working URL and access method, plus known-blocked sources and substitutes.
+- **Live source coverage verified in-environment:** Google Trends (US/UK/CA/AU), Google News RSS (any query), CNBC Business + Tech RSS, WSJ US Business, BBC Business, FT, Bloomberg Markets, TechCrunch, and Reddit (www, top-of-week and top-of-month).
+- **Documented as blocked, with substitutes:** YouTube search/trending/homepage, X/Twitter, Reuters, Forbes, Business Insider, MarketWatch, Bloomberg site, Yahoo Finance, The Verge, news.google.com site, old.reddit.com, Reddit `.json` and `.rss`.
+- Repo URLs updated from `ai-playbooks` to `sayeedbind` throughout.
+- README, PLAYBOOK, AGENTS and CLAUDE updated to reference the new skill.
+
 ## 1.0.0 (2026-11-06): LedgerFilms Studio
 
 First release. Consolidates four upstream workflows into one repo tuned for the LedgerFilmsHQ channel.
