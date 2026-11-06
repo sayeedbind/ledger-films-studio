@@ -1,0 +1,10 @@
+private/
+*.mp4
+*.webm
+*.mov
+*.png
+*.jpg
+*.wav
+*.mp3
+.env
+.DS_Store
